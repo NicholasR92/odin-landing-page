@@ -97,10 +97,34 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
 }
 
 .information h1 {
+    margin-top: 50px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.cards{
+    display: flex;
+    gap: 15px;
+
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+    text-align: center;
+}
+
+.card-content .image{
+    border: 5px solid rgb(35, 70, 222);
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
 }
