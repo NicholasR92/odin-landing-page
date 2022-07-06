@@ -42,16 +42,13 @@ body {
     width: 300px;
     height: auto;
     flex-direction: column;
-    width: 300px;
    
 }
 
 .hero-content .image{
    display: flex;
-   justify-content: flex-end;
-    width: 200px;
-    height: auto;
-    flex: 1;    
+    width: 400px;
+    height: auto;    
 }
 
 img {
@@ -74,7 +71,6 @@ img {
 .header h1 {
     font-size: 24px;
     color: #f9faf8;
-    margin: 0;
 }
 
 a {
@@ -85,6 +81,7 @@ a {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+    margin: 0;
 }
 
 .hero p, .hero a {
