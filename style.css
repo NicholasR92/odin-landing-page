@@ -48,13 +48,13 @@ body {
 
 .hero-content .image{
    display: flex;
-    width: 400px;
-    height: auto;    
+    width: 800px;
+    height: auto; 
+    justify-content: center;
+    align-items: center;   
+    background-color: rgb(185, 183, 183);
 }
 
-img {
-    width: 400px;
-}
 
 .hero-content button {
         display: flex;
@@ -135,6 +135,7 @@ a {
 /* Quote Section */
 .quote{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
@@ -143,4 +144,8 @@ a {
     font-weight:400;
     height: 500px;
     flex-shrink: 0;
+}
+
+cite {
+    font-size: 20px;
 }
