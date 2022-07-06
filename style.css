@@ -34,19 +34,28 @@ body {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .hero-content .text{
-    width: 50%;
-    
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    width: 300px;
+   
 }
 
 .hero-content .image{
-    margin: auto 0;
-    width: 50%;
-    background-color: rgb(154, 154, 154);
-    flex-shrink: 0;    
+   display: flex;
+   justify-content: flex-end;
+    width: 200px;
+    height: auto;
+    flex: 1;    
+}
+
+img {
+    width: 400px;
 }
 
 .hero-content button {
@@ -65,6 +74,7 @@ body {
 .header h1 {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0;
 }
 
 a {
