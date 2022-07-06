@@ -8,7 +8,32 @@ body {
 
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     background-color: #1f2937;
+    height: 500px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    border: 1px solid white;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border: 1px solid white;
+   
+}
+
+.hero-content img {
+    flex: 0;
 }
 
 .header h1 {
