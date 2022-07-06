@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     height: 500px;
-    
+    flex-shrink: 0;
 }
 
 .header{
@@ -96,8 +96,10 @@ a {
 .information{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 700px;
+    flex-shrink: 0;
 }
 
 .information h1 {
@@ -127,4 +129,18 @@ a {
     border-radius: 20px;
     height: 250px;
     width: 300px;
+}
+
+
+/* Quote Section */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:400;
+    height: 500px;
+    flex-shrink: 0;
 }
