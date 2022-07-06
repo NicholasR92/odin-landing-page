@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     height: 500px;
+    
 }
 
 .header{
@@ -21,19 +22,44 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 50%;
-    border: 1px solid white;
+    
+}
+
+.header .links {
+    display: flex;
+    gap: 20px;
 }
 
 .hero-content{
     display: flex;
     justify-content: space-between;
     width: 50%;
-    border: 1px solid white;
-   
+    margin-bottom: 100px;
 }
 
-.hero-content img {
-    flex: 0;
+.hero-content .text{
+    width: 50%;
+    
+}
+
+.hero-content .image{
+    margin: auto 0;
+    width: 50%;
+    background-color: rgb(154, 154, 154);
+    flex-shrink: 0;    
+}
+
+.hero-content button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3882f6;
+        color: #e5e7eb;
+        width: 100px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
 }
 
 .header h1 {
