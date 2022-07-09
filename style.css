@@ -149,3 +149,49 @@ a {
 cite {
     font-size: 20px;
 }
+
+
+/* CTA & FOOTER */
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-shrink: 0;
+
+}
+
+.cta-content {
+    display: flex;
+    width: 900px;
+    height: auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.cta-content h1 {
+    margin-bottom: 0;
+}
+
+.cta-content p {
+    margin-top: 0;
+}
+
+.cta-button button {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882f6;
+}
+
+
