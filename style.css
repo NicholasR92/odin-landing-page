@@ -194,4 +194,10 @@ cite {
     background-color: #3882f6;
 }
 
-
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    
+}
